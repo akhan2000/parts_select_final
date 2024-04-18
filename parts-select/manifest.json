@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Instalily Case Study",
+  "version": "1.0",
+  "description": "AI Assistant",
+  "permissions": ["tabs", "activeTabs", "scripting"],
+  "action": {
+      "default_popup": "build/index.html"
+  },
+  "host_permissions": ["https://*/*", "http://*/*"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["build/static/js/main.a80d97bc.js"]
+    }
+  ]
+}

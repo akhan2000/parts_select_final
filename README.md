@@ -50,7 +50,7 @@ The RAG Bot is an AI-powered Chrome Extension that assists users with inquiries 
 1. **Clone the project repository:**
    ```bash
    git clone https://github.com/your-username/parts_select_final
-   cd instalily-case-study
+ 
 
 2. **Setup the Backend**    
 cd /path/to/server/directory
